@@ -1,0 +1,40 @@
+html, body{
+    height: 100%;
+}
+*{
+    font-size: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background: url('https://img.freepik.com/free-vector/neon-question-mark-frame-quiz-lighting-interrogation-point-red-neon-lamp-bricks-wall-texture-background-illustration_102902-1207.jpg?size=626&ext=jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.container-head{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+h2{
+    color: white;
+}
+.btn{
+    background: linear-gradient(90deg, rgb(207, 100, 94) 0%, rgb(255, 8, 0) 100%);
+    color: white;
+    text-decoration: none;
+    text-shadow:rgba(116, 117, 117, 0.349) 5px 5px 5px;
+    padding: 10px;
+    text-transform: uppercase;
+    border-radius: 10px;
+}
+.btn:hover{
+    background: linear-gradient(90deg, rgb(238, 74, 74) 0%, rgb(255, 30, 0) 100%);
+    border-radius: 10px;
+}

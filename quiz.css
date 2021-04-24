@@ -1,0 +1,103 @@
+html, body{
+    height: 100%;
+}
+*{
+    /* font-size: 50px; */
+    font-size:large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+}
+body{
+    /* width: 100%;
+    height: 100vh; */
+    background: url('https://img.freepik.com/free-vector/new-realistic-neon-sign-quiz-frame-logo-decoration-covering-dark-wall-background_175838-963.jpg?size=626&ext=jpg');
+    background-size: cover;
+    /* background-position: ; */
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /* height: 100%; */
+    /* opacity: 0.5;
+    z-index: 999; */
+    /* font-size: 50px; */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.container-box{
+    height: 100vh;
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    margin: 0 auto;
+
+}
+/* .score{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+} */
+.options{
+    display: flex;
+    margin-bottom: 0.8rem;
+    width: 60%;
+    border-radius: 10px;
+    background: linear-gradient(90deg, rgb(68, 142, 226) 0%,  rgb(104, 181, 226) 100%);
+    /* min-width: 80rem; */
+}
+.options:hover{
+    cursor: pointer;
+    transform: scale(1.02);
+    transform: transform 100ms;
+}
+/* .option{
+    padding : 2rem 2.5rem;
+    width: 70%;
+}
+.option-text{
+    padding-left: 2rem;
+} */
+.option{
+    padding-left: 10px;
+    padding-top: 0px;
+    font-size: medium;
+}
+.option-text{
+    padding-left: 5px;
+    padding-top: 0px;
+    font-size: medium;
+}
+.correct-ans{
+    background: linear-gradient(32deg, rgba(11, 223, 36) 0%, rgb(41, 232, 111));
+}
+.wrong-ans{
+    background: linear-gradient(32deg, rgb(223, 71, 11) 0%, rgb(223, 41, 17));
+}
+.header{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items:stretch;
+}
+.score{
+    display: flex;
+    margin-left: 20px;
+    /* flex-direction: row; */
+    justify-content: flex-end;
+}
+.question{
+    font-weight: bold;
+    font-size: x-large;
+}
+.quiz_box header .timer .timer_sec{
+    font-size: 18px;
+    font-weight: 500;
+    height: 30px;
+    width: 45px;
+    color: #fff;
+    border-radius: 5px;
+    line-height: 30px;
+    text-align: center;
+    background: #343a40;
+    border: 1px solid #343a40;
+    user-select: none;
+}
